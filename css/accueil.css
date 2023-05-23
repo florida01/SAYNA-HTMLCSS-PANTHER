@@ -1,0 +1,406 @@
+@font-face {
+    font-family: impact;
+    src: url(../impact.ttf);
+}
+body{
+    background-image: linear-gradient(to right,#142d3c,black 30%, #16374a);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -25%;
+    animation: fade-in 5s ease;
+}
+#icon_MARVEL{
+    width: 40%;
+}
+#icon_SAYNA{
+    width: 20%;
+}
+#icon_x{
+    margin-bottom: 5px;
+}
+.lienheader{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.blackpanther{
+    display: flex;
+    justify-content: space-between;
+}
+#Pantherhome1{
+    width: 90%;
+    margin-left: 2%;
+}
+.wakanda{
+    width: 35%;
+    margin-top: 12%;
+    margin-left: 5%;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.réseau{
+    margin-top: 13%;
+    margin-left: 3%;
+}
+#icon_facebook{
+    width: 110%;
+    margin-bottom: 120%;
+}
+#icon_instagram{
+    width: 110%;
+    margin-bottom: 80%;
+}
+#icon_twitter{
+    width: 110%;
+    margin-bottom: 90%;
+}
+#ligne1{
+    border-right: 3px solid rgb(130, 91, 130);
+    display: inline-block;
+    height: 200px;
+    margin-right: -40px;
+    padding-left: 50px;
+    margin: 0;
+    position: absolute;
+}
+#ligne2{
+    border-right: 3px solid rgb(130, 91, 130);
+    display: inline-block;
+    padding-right: 10px;
+    margin-left: 20px;
+    height: 350px;
+    /* position: absolute; */
+}
+.m{
+    text-align: justify;
+    width: 45%;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: fade-in 5s ease;
+}
+#killmo{
+    margin-left: 58%;
+    animation: fade-in 5s ease;
+}
+#kill{
+    margin-left: 58%;
+    margin-top: 13%;
+    color: white;
+    animation: fade-in 5s ease;
+}
+.k{
+    margin-left: 58%;
+    animation: fade-in 5s ease;
+}
+#okoyer{
+    margin-left: 33%;
+}
+#okoy{
+    margin-left: 33%;
+    margin-top: 13%;
+    color: white;
+    animation: fade-in 5s ease;
+}
+.o{
+    margin-left: 33%; 
+}
+.panther{
+    background-color: #123b5a;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9%;
+    margin-top: 5%;
+    height: 245px;
+    margin-bottom: 15%;
+    animation: fade-in 5s ease;
+    
+}
+#Pantherhome2{
+    width: 20%;
+    top: 40.4rem;
+    left: 6rem;
+    position: absolute;
+    margin-left: 4%;
+}
+#Pantherhome3{
+    width: 192%;
+    margin-left: 27%;
+}
+#Pantherhome4{
+    width: 192%;
+    margin-left: -90%;
+}
+a{
+    color: white;
+}
+.tchala{
+    display: flex;
+    justify-content: space-between;
+}
+#nai{
+    text-align: justify;
+    width: 65%;
+    color: white;
+    font-size: 10px;
+    margin-left: 19%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#titre{
+    color: white;
+    margin-left: 19%;
+}
+#deuximage{
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 130%;
+    height: 509px;
+    margin-right: 11%;
+    margin-top: 6%;
+
+}
+#Pantherhome5{
+    width: 20%;
+    position: absolute;
+    margin-left: 1.3%;
+    margin-top: -28%;
+
+}
+#Pantherhome6{
+    width: 27%;
+    float: right;
+    margin-top: -22%;
+    margin-right: 8%;
+}
+.putlabel{
+    margin-top: 58%;
+}
+.back{
+    background-image: url('/image/Accueil/Pantherhome7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100vh;
+    margin-top: 3%;
+}
+.backg{
+    background: linear-gradient(to bottom, white 15%, transparent);
+    position: absolute;
+    width: 52%;
+    height: 75%;
+    margin-left: 24%;
+    margin-top: 9%;
+    border-radius: 20%;
+    text-align: center;
+
+}
+#besoin{
+    margin-top: 5%;
+    font-size: 11px;
+    color: #16374a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contacte{
+    font-size: 34px;
+    margin-top: -1%;
+    letter-spacing: 0.2rem;
+    font-weight: bolder;
+    color: #16374a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pla{
+    margin: 0.5%;
+    width: 55%;
+    border-radius: 20px;
+    border: 1px solid #16374a ;
+    height: 35px;
+    padding-left: 10px;
+    background-color: transparent;
+}
+#MESSAGE{
+    height: 150px;
+}
+.button{
+    margin: 2.9%;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(216, 196, 217);
+}
+footer{
+    background-image:url('/photo/back_footer.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 80vh;
+    margin-top: 10%;
+    bottom:0;
+}
+/* #ics2{
+    width: 2%;
+}
+#ics4{
+    width: 5%;
+}
+#ics4{
+    
+} */
+#footer{
+    display: flex;
+    justify-content: space-between;
+}
+#footer1{
+    margin-left: 20%;
+    margin-top: 195px;
+    position: absolute;
+    width: 18%;
+}
+#image1{
+    position: absolute;
+    margin-top: 313px;
+    margin-left: 23.8%;
+}
+#image3{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 10%;
+    color: white;
+}
+#page{
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#propos{
+    font-weight: lighter;
+    text-transform: capitalize;
+    margin-top: 9px;
+}
+#wak{
+    margin-top: -9px;
+}
+#ret{
+    margin-top: 135px;
+    position: absolute;
+    margin-left: 68%;
+}
+#retrouveznous{
+   color: white;
+   text-transform: uppercase;
+   font-size: 20px;
+   letter-spacing: 5px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer3{
+    width: 18%;
+}
+#footer4{
+    width: 18%;
+}
+
+#footer5{
+    width: 18%;
+}
+#footer6{ 
+    width: 18%;
+}
+#imagefooter{
+    display: flex;
+   gap: 15px;
+}
+.tt{
+    position: absolute;
+    margin-top: 28%;
+    display: flex;
+    color: white;
+    margin-left: 45%;
+    font-size: 13px;
+}
+#rond2{
+     width: 5px ;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 0.3rem;
+    margin-top: 5%;
+}
+#rond4{
+    width: 5px ;
+    height: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 0.3rem;
+    margin-top: 5%;
+}
+@font-face {
+    font-family: PantheraRegular-MVZ9J;
+    src: url(/Fonts/PantheraRegular-MVZ9J.ttf);
+}
+#black_panther{
+    font-family: PantheraRegular-MVZ9J;
+    font-size: 53px;
+    position: absolute;
+    color:  #9E91B7;
+    margin-top: -20px;
+    width: 90%;
+}
+#forever_0{
+    margin-top: 80px;
+}
+@font-face {
+    font-family: BEYNO;
+    src: url(/Fonts/BEYNO.ttf);
+}
+#forever{
+    margin-top: 38px;
+    margin-bottom: -55px;
+    font-family: BEYNO;
+    font-size: 28px;
+    color:  #9E91B7;
+}
+a{
+    text-decoration: none;
+    font-family: BEYNO;
+}
+#titre{
+    font-family: BEYNO;
+    color:#9E91B7 ;
+}
+.tchala1{
+    margin-left: 20px;
+}
+#nom{
+    margin-left: 100px;
+    position: relative;
+    font-size: 30px;
+}
+input{
+    height: 29px;
+    width: 30%;
+    font-size: 9px;
+    color: white;
+    font-weight: lighter;
+    border-radius: 6px;
+    border:1px solid ;
+    margin-top: -8px;
+    margin-bottom: 25px;
+    background-color: #3D2DA6;
+}
+@keyframes fade-in {
+    from{
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
